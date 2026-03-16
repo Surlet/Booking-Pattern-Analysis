@@ -1,21 +1,24 @@
 <h1>Bed & breakfast booking pattern analysis</h1>
 
-<h2>Overview</h2>
+<h2>Introduction</h2>
 
 <p>The object of this analysis is the booking data from a bed & breakfast located in Hesbaye region in Belgium. The data comes from the Lighthouse booking software and spans from the opening of the bed & breakfast in 2012 until August 2025. The Hesbaye region is known for its fruit orchards, bucolic landscapes and cycling itineraries. It has become a popular weekend destination for local tourists, mostly coming from other parts of Flanders.</p>
-<p>The goal of this analysis is twofold:</p>
-<ol type="a">
-  <li>Identify key booking patterns</li>
-  <li>Determine growth opportunities</li>
+
+<h2>Objective</h2>
+
+<p>The goal of this analysis is to answer the following questions:</p>
+<ol type="1">
+  <li>How have the reservations evolved over the years?</li>
+  <li>During which seasons, months and on what days does the B&B have more guests?</li>
+  <li>Where are the guests coming from?</li>
+  <li>When would it be most effective to launch a publicity campaign?</li>
 </ol>
-<p>To achieve this goal, it will be interesting to examine the following metrics:</p>
+
+<h2>Skills used</h2>
+<h3>Excel</h3>
 <ul>
-  <li>Cancellation rate</li>
-  <li>Booking channels</li>
-  <li>Origin of hosts</li>
-  <li>Examining booking patterns on weekdays and on weekends</li>
-  <li>Examining booking patterns in season and off season</li>
-  <li>Understand when guests are reservation: what day, what month, how long in advance</li>
+  <li>Filters for data cleaning</li>
+  <li>XLOOKUP to transform postal codes in provinces</li>
 </ul>
 
 <h2>Data cleaning</h2>
@@ -44,6 +47,11 @@ There are no double ID values or double reservations numbers
 <h3>Standardising data types</h3>
 
 The data types of the date and price columns were checked, they were all correct.
+
+<h3>Determining the province of origin of Belgian guests</h3>
+
+The XLOOKUP formula was used to compare the postal code to the below table and determine the province of the guest.
+<img width="201" height="330" alt="image" src="https://github.com/user-attachments/assets/2d8d2623-dbb4-4082-b04a-482b9c641b28" />
 
 
 
