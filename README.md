@@ -17,8 +17,16 @@
 <h2>Skills used</h2>
 <h3>Excel</h3>
 <ul>
-  <li>Filters for data cleaning</li>
-  <li>XLOOKUP to transform postal codes in provinces</li>
+  <li>Data Cleaning with <strong>filters</strong> to delete or adapt incorrect or double data</li>
+  <li>Data Transformation with the <strong>XLOOKUP</strong>-formula to transform postal codes into provinces</li>
+</ul>
+
+<h3>Power BI</h3>
+<ul>
+  <li>Data Transformation with <strong>Power Query</strong> to add columns</li>
+  <li>Calculating measures with the <strong>DAX Lanugage</strong></li>
+  <li>Clear data visualisation with relevant column, line, column, donut and charts</li>
+  <li>Intuitive and interactive dashboard with the use of <strong>buttons and bookmarks</strong></li>
 </ul>
 
 <h2>Data cleaning</h2>
