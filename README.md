@@ -17,16 +17,27 @@
 <h2>Skills used</h2>
 <h3>Excel</h3>
 <ul>
-  <li>Data Cleaning with <strong>filters</strong> to delete or adapt incorrect or double data</li>
-  <li>Data Transformation with the <strong>XLOOKUP</strong>-formula to transform postal codes into provinces</li>
+  <li>Cleaned raw booking data by identifying and removing duplicates and inconsistent records using filtering techniques</li>
+  <li>Enriched data by mapping postal codes to provinces using XLOOKUP, enabling regional analysis</li>
+  <li>Performed initial data validation checks to improve data reliability before further analysis</li>
+</ul>
+
+<h3>SQL</h3>
+<ul>
+  <li>Replicated initial data cleaning steps performed in Excel to validate consistency across tools and workflows</li>
+  <li>Cleaned and prepared booking data using SQL, including correcting data types (e.g., converting date fields to proper date formats) to ensure accurate time-based analysis</li>
+  <li>Created a calendar (date) table to support time-series analysis and enable day-level granularity</li>
+  <li>Calculated daily occupancy by joining booking data with the calendar table, applying date range logic to account for stay duration (arrival to departure)</li>
+  <li>Aggregated booking data to compute the number of occupied rooms per day, forming the basis for occupancy rate analysis</li>
 </ul>
 
 <h3>Power BI</h3>
 <ul>
-  <li>Data Transformation with <strong>Power Query</strong> to add columns</li>
-  <li>Calculating measures with the <strong>DAX Lanugage</strong></li>
-  <li>Clear data visualisation with relevant column, line, column, donut and charts</li>
-  <li>Intuitive and interactive dashboard with the use of <strong>buttons and bookmarks</strong></li>
+  <li>Transformed and enriched the dataset using <strong>Power Query</strong>, including the creation of calculated columns to support analysis</li>
+  <li>Built analytical measures using <strong>DAX</strong> (booking channel distribution) to enable dynamic insights</li>
+  <li>Designed clear and effective visualizations (bar charts, line charts, distribution visuals and maps) to highlight key booking trends</li>
+  <li>Developed an <strong>interactive dashboard</strong> using buttons and bookmarks, allowing users to explore data across different dimensions (seasonalily, time of the week)</li>
+  <li>Structured the report to support intuitive navigation and business-oriented storytelling</li>
 </ul>
 
 <h2>Data cleaning</h2>
@@ -58,7 +69,7 @@ The data types of the date and price columns were checked, they were all correct
 
 <h3>Determining the province of origin of Belgian guests</h3>
 
-The XLOOKUP formula was used to compare the postal code to the below table and determine the province of the guest.
+<p>The XLOOKUP formula was used to compare the postal code to the below table and determine the province of the guest.</p>
 <img width="201" height="330" alt="image" src="https://github.com/user-attachments/assets/2d8d2623-dbb4-4082-b04a-482b9c641b28" />
 
 
