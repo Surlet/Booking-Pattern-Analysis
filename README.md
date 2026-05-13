@@ -102,13 +102,13 @@ The busiest quarters are the second and third quarters, they make up the high se
 
 <img width="1236" height="356" alt="image" src="https://github.com/user-attachments/assets/69f9b012-d580-4fd5-87c2-277cb7351ade" />
 
-<h3>Where are the guests coming from?</h3>
+<h3>3. Where are the guests coming from?</h3>
 
 The lion's share of the B&B guests come from Belgium, Flanders in particular, and the provinces of Antwerp, East-Flanders and West-Flanders especially. The Netherlands comes as a distant second, Germany and France come in third and fourth.
 
 <img width="1244" height="731" alt="image" src="https://github.com/user-attachments/assets/b721564a-6c6b-420c-a554-8bbb70bcc52d" />
 
-<h3>When do guests book their stay?</h3>
+<h3>4. When do guests book their stay?</h3>
 
 <p>We can identify two very different pattern when examining the booking lead times, depending on the type of guest. Guests who reserve for a weekend stay usually book a long time in advance. Close to 40% book more than a month in advance, with almost 30% booking more than a week in advance. The profile of this type of guest is either a tourist enjoying a weekend in nature or people attening a wedding or other celebration on a Saturday.</p>
 
